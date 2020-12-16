@@ -60,7 +60,7 @@ public class AwaitilityWebDriverTest {
         driver.close();
     }
 
-    private class ButtonComponent {
+    public static class ButtonComponent {
         private final By locator;
         private final WebDriver myDriver;
         private WebElement elem;

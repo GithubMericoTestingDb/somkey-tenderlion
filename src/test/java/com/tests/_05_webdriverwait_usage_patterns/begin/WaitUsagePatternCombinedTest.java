@@ -37,7 +37,7 @@ public class WaitUsagePatternCombinedTest {
 
 
 
-    private class CollapsePage {
+    public static class CollapsePage {
         private final WebDriver driver;
         private final WebDriverWait wait;
 

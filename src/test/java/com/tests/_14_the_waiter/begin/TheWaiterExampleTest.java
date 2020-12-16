@@ -25,7 +25,7 @@ public class TheWaiterExampleTest {
         WebDriverManager.chromedriver().setup();
     }
 
-    private class ButtonPage {
+    public static class ButtonPage {
 
         @FindBy(how = How.ID, using = "easy00")
         public WebElement startButton;

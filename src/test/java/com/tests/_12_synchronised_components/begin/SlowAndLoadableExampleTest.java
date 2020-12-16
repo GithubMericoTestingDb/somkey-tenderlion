@@ -47,7 +47,7 @@ public class SlowAndLoadableExampleTest {
                 driver.findElement(By.id("buttonmessage")).getText());
     }
 
-    private class ButtonComponent {
+    public static class ButtonComponent {
         private final By locator;
         private final WebDriver myDriver;
 

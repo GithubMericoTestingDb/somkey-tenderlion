@@ -1,4 +1,4 @@
-package com.tests;
+package com.tests._20_repo_test_2;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.*;

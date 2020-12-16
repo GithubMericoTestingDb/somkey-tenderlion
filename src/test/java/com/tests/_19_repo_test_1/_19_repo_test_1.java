@@ -1,4 +1,4 @@
-package com.tests;
+package com.tests._19_repo_test_1;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.AfterEach;
