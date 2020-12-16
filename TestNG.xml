@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="classes" thread-count="1" name="Suite">
+    <test name="Chrome Tests">
+        <parameter name="browser" value="firefox"/>
+        <parameter name="appURL" value="https://app-rc.openlaw.io" />
+
+        <classes>
+            <class name="com.tests._01_why_sync.begin.WhyNeedSynchronisationTest"/>
+<!--            <class name="com.com.tests.BasePageTest" />&ndash;&gt;-->
+<!--            <class name="com.com.tests.SignInPageTest" />-->
+<!--            <class name="com.com.tests.CreateAccountTest" />-->
+<!--            <class name="api.FirstAPITest"/>-->
+
+        </classes>
+<!--        <packages>-->
+<!--            <package name="com.com.tests.loginTests"/>-->
+<!--        </packages>-->
+    </test>
+<!--    <test name="Firefox Tests">-->
+<!--        <parameter name="browser" value="firefox"/>-->
+<!--        <parameter name="appURL" value="https://app-rc.openlaw.io" />-->
+<!--        <classes>-->
+<!--        <class name="com.com.tests.loginTests.OLLoginLogoutTest"/>-->
+<!--        <class name="com.com.tests.BasePageTest" />&ndash;&gt;-->
+<!--        <class name="com.com.tests.SignInPageTest" />-->
+<!--        <class name="com.com.tests.CreateAccountTest" />-->
+<!--        </classes>-->
+<!--        <packages>-->
+<!--            <package name="com.com.tests"/>-->
+<!--        </packages>-->
+<!--    </test>-->
+</suite>
+
+
